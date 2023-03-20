@@ -26,7 +26,7 @@ Starting off with some data processing, making a better and more efficient searc
 
 #### Preprocessing / Clean up
 
-* Describe any manipulations you performed to the data.
+* Processed the book title names, removing any special characters, extra spaces, and making all the letters lower case
 
 #### Data Visualization
 
