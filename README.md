@@ -2,7 +2,7 @@
 
 # Goodreads User Recommendation System
 
-* **One Sentence Summary** Ex: TThis repository holds an attempt to make a recommendation system from a user feedback dataset for the book review website, GoodReads 
+* **One Sentence Summary** Ex: This repository holds an attempt to make a recommendation system from a user feedback dataset for the book review website, GoodReads 
 
 GoodReads Kaggle link:
 https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
