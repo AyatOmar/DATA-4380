@@ -1,22 +1,21 @@
 ![](UTA-DataScience-Logo.png)
 
-# Goodreads
+# Goodreads User Recommendation System
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* **One Sentence Summary** Ex: TThis repository holds an attempt to make a recommendation system from a user feedback dataset for the book review website, GoodReads 
+
+GoodReads Kaggle link:
+https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
+
+
 
 ## Overview
+Goodreads dataset including the User ID, book name, and user feedback review, using a collaborative filtering system, a recommendation system can be made. Recommending a user’s next read based off of other User’s reviews and book reads.
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
 
 ## Summary of Workdone
 
-Include only the sections that are relevant an appropriate.
-
-### Data
+Starting off with some data processing, making a better and more efficient search engine. 
 
 * Data:
   * Type: For example
