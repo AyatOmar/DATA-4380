@@ -42,8 +42,8 @@ Show a few visualization of the data and say a few words about what you see.
   * Loss, Optimizer, other Hyperparameters.
 
 ### Training
-=*I used cosine similarity to create a search engine
-*I am trying to create a collaborative filtering recommendation system
+* I used cosine similarity to create a search engine
+* I am trying to create a collaborative filtering recommendation system
 
 ### Performance Comparison
 
@@ -70,25 +70,17 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Overview of files in repository
 
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
+* Draft 1.ipynb: this was my first attempt at doing something with this dataset
+* Draft 2.ipynb: this is my current attempt at making a recommendation system
+* How I Combined The Separate Datasets.ipynb: This is how I combined the multiple separate datasets into one dataset 
 
 * Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
+* pandas
+* numpyu
+* matplotlib
+* glob
 
 ### Data
 
