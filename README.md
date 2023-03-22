@@ -19,14 +19,15 @@ Starting off with some data processing, making a better and more efficient searc
 
 * Data:
   * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+    * Input: multiple CSV files with user data, 51945 rows x 3 columns
+    * there are 362,596 User IDs
+
+  * Size: 19.9 MB?
+  * Instances (Train, Test, Validation Split): UserID, Book Name, Review
 
 #### Preprocessing / Clean up
 
-* Processed the book title names, removing any special characters, extra spaces, and making all the letters lower case
+* For the book names, some data processing was done to make a book title search engine. Special characters such as / and dashes was removed, extra spaces were removed and all the letters were made to be lowercase. 
 
 #### Data Visualization
 
@@ -41,13 +42,8 @@ Show a few visualization of the data and say a few words about what you see.
   * Loss, Optimizer, other Hyperparameters.
 
 ### Training
-
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
+=*I used cosine similarity to create a search engine
+*I am trying to create a collaborative filtering recommendation system
 
 ### Performance Comparison
 
