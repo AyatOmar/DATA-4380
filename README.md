@@ -4,13 +4,13 @@
 
 * **One Sentence Summary** Ex: This repository holds an attempt to make a recommendation system using the user feedback dataset from the popular book review website GoodReads
 
-GoodReads Kaggle link:
+Goodreads Kaggle link:
 https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
 
 
 
 ## Overview
-Goodreads dataset including the User ID, book name, and user feedback review, using a collaborative filtering system, a recommendation system can be made. Recommending a user’s next read based off of other User’s reviews and book reads.
+Goodreads is a popular website where many readers go to leave reviews and ratings on books they have read, users can search the database for books to view other users' ratings and reviews. The Goodreads dataset including the User ID, book name, and user feedback review, using a collaborative filtering system, a recommendation system can be made, recommending a user’s next read based off of other User’s reviews and books that they have read.
 
 
 ## Summary of Workdone
@@ -84,8 +84,8 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Data
 
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
+* Goodreads dataset contains two types of datasets, 1 is the book dataset that contains information about approcimately 10,000,000 books, there is detailed information about the books such as publication year, author, ISBN, etc. and there is a Users dataset that contains information about the Users book reads and their ratings. To access the Goodreads dataset, it can be downloaded from the Kaggle link listed above, the dataset is said to be updated every 2 days. 
+* Since the dataset is so large, both the Users datset and Book dataset is split into smaller datasets, I combined them into one file in the 'How I Combined The Separate Datasets.ipynb'.
 
 ### Training
 
