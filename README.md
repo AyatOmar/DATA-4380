@@ -2,7 +2,7 @@
 
 # Goodreads User Recommendation System
 
-* **One Sentence Summary** Ex: This repository holds an attempt to make a recommendation system using the user feedback dataset from the popular book review website GoodReads
+*This repository holds an attempt to make a recommendation system using the user feedback dataset from the popular book review website GoodReads
 
 Goodreads Kaggle link:
 https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
@@ -10,46 +10,42 @@ https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2
 
 
 ## Overview
-Goodreads is a popular website where many readers go to leave reviews and ratings on books they have read, users can search the database for books to view other users' ratings and reviews. The Goodreads dataset including the User ID, book name, and user feedback review, using a collaborative filtering system, a recommendation system can be made, recommending a user’s next read based off of other User’s reviews and books that they have read.
+Goodreads is a popular website where many readers go to leave reviews and ratings on books they have read, users can search the database for books to view other users' ratings and reviews. The Goodreads dataset including the User ID, book name, and user feedback review, using a collaborative filtering system, a recommendation system can be made, recommending a user’s next read based off of other user’s reviews and books that they have read.
 
 
 ## Summary of Workdone
 
-Starting off with some data processing, making a better and more efficient search engine. 
+I started off with some data processing. The dataset contained some null values, there was a rating of 'This user doesn't have any rating'. Each of the rows that had this rating also had a Name of 'Rating'. I removed these datapoints since they would be of no use.
+
+After Data processing, I did some visualization, and then cleaned the book titles to help with the effiency of the search engine created later.
+
+The search engine was created by using a term frequency matrix, then using cosine similarity I found the other users that liked the same book that was searched for and based off of the most similar user's reads I recommended other books.
 
 * Data:
-  * Type: For example
     * Input: multiple CSV files with user data, 51945 rows x 3 columns
     * there are 362,596 User IDs
 
-  * Size: 19.9 MB?
-  * Instances (Train, Test, Validation Split): UserID, Book Name, Review
+  * Size: 19.9 MB
+  * Instances: UserID, Book Name, Review
 
 #### Preprocessing / Clean up
 
-* For the book names, some data processing was done to make a book title search engine. Special characters such as / and dashes was removed, extra spaces were removed and all the letters were made to be lowercase. 
+* For the book names, some data processing was done to make a book title search engine. Special characters such as '/' and dashes was removed, extra spaces were removed and all the letters were made to be lowercase. 
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
+I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which books had the highest ratings
 
 ### Problem Formulation
 
 * Define:
-  * Input / Output
+  * In the files Draft1.ipynb and Draft2.ipynb, I tried different ways to create a collaborative filtering system.
   * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
+    *I attempted to use the Book datasets that comes with the goodreads dataset file to match the book titles in the User dataset to the book titles in the Book dataset to create a better and more expanded dataset. 
 
 ### Training
 * I used cosine similarity to create a search engine
-* I am trying to create a collaborative filtering recommendation system
-
-### Performance Comparison
-
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+* To create a collaborative filtering recommendation system
 
 ### Conclusions
 
@@ -72,6 +68,7 @@ Show a few visualization of the data and say a few words about what you see.
 
 * Draft 1.ipynb: this was my first attempt at doing something with this dataset
 * Draft 2.ipynb: this is my current attempt at making a recommendation system
+*visualization draft.ipynb is my first attempt on the visualization
 * How I Combined The Separate Datasets.ipynb: This is how I combined the multiple separate datasets into one dataset 
 
 * Note that all of these notebooks should contain enough text for someone to understand what is happening.
@@ -89,16 +86,19 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Training
 
-* Describe how to train the model
+* cosine similarity for the search engine
 
 #### Performance Evaluation
 
-* Describe how to run the performance evaluation.
+* Entering the book title into the search engine, gives you the bookid, I used this to find any similar users that read the book, this is the 'similar_users' data. From that I found other books that they also liked that was rated a 4 or higher. Now I compared those books that were rated highly and divided it by everyone who read it and rated it highly as well. That is what the score value is in the last table. It is the ratio between how similar users liked the recommended books vs. how much the average user liked the book.This is because the higher the score the better the recommendation.
+
+One of my favorite books is 'It Ends With Us', I used this to test my recommendation system. The output recommended books, really intrigued me. 
 
 
 ## Citations
 
-* Provide any references.
+* I used the youtube channel: Dataquest. This channel provided alot of videos that helped with understanding cosine similarity
+* the kaggle link: https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
 
 
 
