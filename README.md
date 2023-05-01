@@ -71,7 +71,6 @@ I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which
 *visualization draft.ipynb is my first attempt on the visualization
 * How I Combined The Separate Datasets.ipynb: This is how I combined the multiple separate datasets into one dataset 
 
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
 * pandas
