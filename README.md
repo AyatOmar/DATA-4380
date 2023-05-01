@@ -98,7 +98,7 @@ One of my favorite books is 'It Ends With Us', I used this to test my recommenda
 
 ## Citations
 
-* I used the youtube channel: Dataquest. This channel provided alot of videos that helped with understanding cosine similarity
+* I used the youtube channel: Dataquest. This channel provided alot of videos that helped with understanding cosine similarity and creating a collaborative filter recommendation system.
 * the kaggle link: https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
 
 
