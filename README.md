@@ -49,12 +49,12 @@ I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+* Created a search engine to find the books in the datafile, since the titles can vary so much, this was necessary for the search engine and created unique IDs for each book title. Then finding other users who also read that book and finding books that those users read and comparing it to the whole population to give more efficient book recommendations. 
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+* To try making a search engine where, input book and quick output of book recommendations
+* Utilizing the Book dataset that is included with the GoodReads data file, where I would connect the User dataset and Book dataset to give recommendation and then provide more information about the books recommended.
 
 ## How to reproduce results
 
