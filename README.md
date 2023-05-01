@@ -66,7 +66,7 @@ I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which
 
 ### Overview of files in repository
 
-*The Final.draft.ipynb is the final code for the recommendation system
+* Final Draft.ipynb: the final code for the recommendation system
 * Draft 1.ipynb: this was my first attempt at doing something with this dataset
 * Draft 2.ipynb: this is my current attempt at making a recommendation system
 *visualization draft.ipynb is my first attempt on the visualization
