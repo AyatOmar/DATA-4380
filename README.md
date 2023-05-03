@@ -105,20 +105,20 @@ I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which
 One of my favorite books is 'It Ends With Us', I used this to test my recommendation system. The output recommended books, really intrigued me.
 This was my final results:
 
-The book inquired: it ends with us
+* The book inquired: it ends with us
 --------------------------
-10 book recommendations based off of inquiry
+* 10 book recommendations based off of inquiry
 -------------------------------------
-something blue darcy rachel 2
-if i stay if i stay 1
-firefly lane firefly lane 1
-something borrowed darcy rachel 1
-me before you me before you 1
-divergent divergent 1
-the nightingale
-where the crawdads sing
-eclipse twilight 3
-new moon twilight 2
+* something blue darcy rachel 2
+* if i stay if i stay 1
+* firefly lane firefly lane 1
+* something borrowed darcy rachel 1
+* me before you me before you 1
+* divergent divergent 1
+* the nightingale
+* where the crawdads sing
+* eclipse twilight 3
+* new moon twilight 2
 
 Based off of what I have read from this list, I feel that these are great recommendations! 
 
