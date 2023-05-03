@@ -7,10 +7,13 @@
 Goodreads Kaggle link:
 https://www.kaggle.com/datasets/b2dde9353c9d10c36e4d6b593a74c109dbaca6393a1ca0f2c7abafeba7633641/code?select=book1-100k.csv
 
+![image](https://user-images.githubusercontent.com/111785493/235985447-19d0d480-e4d5-4c4c-8168-891d3729908e.png)
 
 
 ## Overview
 Goodreads is a popular website where many readers go to leave reviews and ratings on books they have read, users can search the database for books to view other users' ratings and reviews. The Goodreads dataset including the User ID, book name, and user feedback review, using a collaborative filtering system, a recommendation system can be made, recommending a user’s next read based off of other user’s reviews and books that they have read.
+
+I love to read and I really like using the GoodReads website, this was a fun beginners data science project for me, I learned a lot from this project, such as how to use cosine similarity to find the same but written differently titles in a dataset and how a collaborative filtering system works. I really enjoyed finding more book recommendations based off of one of my favorite books, "It Ends With Us" by Colleen Hoover.
 
 
 ## Summary of Workdone
@@ -37,6 +40,9 @@ The search engine was created by using a term frequency matrix, then using cosin
 I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which books had the highest ratings
 
 ![image](https://user-images.githubusercontent.com/111785493/235984535-71561a1f-ec9e-48cf-b843-c716f91e07db.png)
+
+![image](https://user-images.githubusercontent.com/111785493/235984670-22f79cc6-58ba-4a52-b448-7397f7176f6a.png)
+
 
 
 ### Problem Formulation
@@ -96,8 +102,25 @@ I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which
 
 * Entering the book title into the search engine, gives you the bookid, I used this to find any similar users that read the book, this is the 'similar_users' data. From that I found other books that they also liked that was rated a 4 or higher. Now I compared those books that were rated highly and divided it by everyone who read it and rated it highly as well. That is what the score value is in the last table. It is the ratio between how similar users liked the recommended books vs. how much the average user liked the book.This is because the higher the score the better the recommendation.
 
-One of my favorite books is 'It Ends With Us', I used this to test my recommendation system. The output recommended books, really intrigued me. 
+One of my favorite books is 'It Ends With Us', I used this to test my recommendation system. The output recommended books, really intrigued me.
+This was my final results:
 
+The book inquired: it ends with us
+--------------------------
+10 book recommendations based off of inquiry
+-------------------------------------
+something blue darcy rachel 2
+if i stay if i stay 1
+firefly lane firefly lane 1
+something borrowed darcy rachel 1
+me before you me before you 1
+divergent divergent 1
+the nightingale
+where the crawdads sing
+eclipse twilight 3
+new moon twilight 2
+
+Based off of what I have read from this list, I feel that these are great recommendations! 
 
 ## Citations
 
