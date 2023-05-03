@@ -120,7 +120,7 @@ This was my final results:
 * eclipse twilight 3
 * new moon twilight 2
 
-## Based off of what I have read from this list, I feel that these are great recommendations! 
+### Based off of what I have read from this list, I feel that these are great recommendations! 
 
 ## Citations
 
