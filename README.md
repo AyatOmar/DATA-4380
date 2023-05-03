@@ -36,6 +36,9 @@ The search engine was created by using a term frequency matrix, then using cosin
 
 I made 2 bar graphs, 1 to see the distribution in the ratings and 1 to see which books had the highest ratings
 
+![image](https://user-images.githubusercontent.com/111785493/235984535-71561a1f-ec9e-48cf-b843-c716f91e07db.png)
+
+
 ### Problem Formulation
 
 * Define:
